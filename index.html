@@ -159,13 +159,49 @@
       <h2>Sfeerbeelden</h2>
       <p class="section-lede">Een paar kiekjes van binnen, buiten en van het bord.</p>
 
-      <div class="photo-grid">
-        <figure class="photo-tile tile-a" > <img src="images/terras.jpg" alt="Het terras"> </figure>
-        <figure class="photo-tile tile-b" data-caption="Vers gezette koffie"></figure>
-        <figure class="photo-tile tile-c" data-caption="Broodje gezond"></figure>
-        <figure class="photo-tile tile-d" data-caption="Borrelplank"> <img src="images/borrelplank.jpg" alt="borrelplank"> </figure>
-        <figure class="photo-tile tile-e" data-caption="High tea"></figure>
-        <figure class="photo-tile tile-f" data-caption="De muur met tekeningen uit 1990"></figure>
+      <div class="photo-carousel" id="photoCarousel">
+        <div class="carousel-track">
+          <figure class="carousel-slide is-active">
+            <img src="images/img1.jpg" alt="Terras van Bistro Joy'Si met gasten aan tafel" loading="eager">
+            <figcaption>Genieten op het terras</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="images/img2.jpg" alt="Bord met gebakken vis en frisse salade" loading="lazy">
+            <figcaption>Vis van de dag</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="images/img3.jpg" alt="Medewerker van Joy'Si met een gevulde borrelplank" loading="lazy">
+            <figcaption>Onze borrelplank, klaar voor de tafel</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="images/img4.webp" alt="Verse wrap met salade, geserveerd op een bord" loading="lazy">
+            <figcaption>Verse wrap uit de lunchkaart</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="images/img5.webp" alt="Clubsandwich met chips en augurk" loading="lazy">
+            <figcaption>Clubsandwich met chips</figcaption>
+          </figure>
+          <figure class="carousel-slide">
+            <img src="images/img6.webp" alt="Sfeervol interieur van Bistro Joy'Si met houten tafels" loading="lazy">
+            <figcaption>Sfeer binnen bij Joy'Si</figcaption>
+          </figure>
+        </div>
+
+        <button class="carousel-btn prev" type="button" aria-label="Vorige foto">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="carousel-btn next" type="button" aria-label="Volgende foto">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="carousel-dots" role="tablist" aria-label="Ga naar foto">
+          <button class="dot is-active" type="button" role="tab" aria-selected="true" aria-label="Foto 1"></button>
+          <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Foto 2"></button>
+          <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Foto 3"></button>
+          <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Foto 4"></button>
+          <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Foto 5"></button>
+          <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Foto 6"></button>
+        </div>
       </div>
     </div>
   </section>

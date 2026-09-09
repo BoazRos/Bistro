@@ -1,2 +1,0 @@
-Zet hier jullie eigen foto's neer (bijv. terras.jpg, koffie.jpg, broodje-gezond.jpg)
-en verwijs er in index.html naar bij de "Sfeerbeelden"-sectie.
